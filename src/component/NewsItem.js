@@ -7,7 +7,7 @@ export class NewsItem extends Component {
     return (
       <div className='my-3'>
         <div className="card  " >
-            <img src={!imageUrl?"https://i.dawn.com/large/2022/12/63a77ddd4f855.jpg"
+            <img src={!imageUrl?"/images/noImage.jpg"
                       :imageUrl} className="card-img-top" alt="..."/>
             <div className="card-body">
                 <h5 className="card-title"><b>{title}</b></h5>
